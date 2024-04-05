@@ -223,6 +223,12 @@ p {
   margin-left: 75px;
 }
 
+.center {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+}
+
 .block5 {
   max-width: 1170px;
   height: 603px;
@@ -374,4 +380,243 @@ footer {
   margin: 0 auto;
   font-size: 12px;
   color: rgba(200, 200, 200, 0.5019607843);
+}
+
+#build1 {
+  position: absolute;
+  margin-top: 30px;
+}
+
+#build2 {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+#build3 {
+  position: absolute;
+  margin-top: 320px;
+}
+
+.name {
+  font-size: 64px;
+  font-weight: 300;
+  color: #BDBDBD;
+  margin: 0;
+}
+
+.block2 .name {
+  margin: 15px auto;
+}
+
+.tasks p {
+  padding-left: 57px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+}
+
+#logo {
+  width: 145px;
+  height: 94px;
+}
+
+@media (max-width: 1350px) {
+  #img1 {
+    width: 500px;
+  }
+  .link {
+    width: 350px;
+    margin-top: -180px;
+  }
+  .link h1 {
+    font-size: 46px;
+  }
+  #img2 {
+    width: 500px;
+  }
+  #img3 {
+    width: 200px;
+  }
+  #img4 {
+    width: 400px;
+  }
+  #img5 {
+    width: 350px;
+  }
+  input {
+    width: 270px;
+  }
+  textarea {
+    width: 270px;
+  }
+}
+@media (max-width: 1250px) {
+  .left_side {
+    width: 200px;
+    margin-top: 250px;
+  }
+  .project_home {
+    font-size: 46px;
+  }
+  .build img {
+    width: 600px;
+  }
+  .block2 {
+    width: 800px;
+  }
+  .part1 {
+    width: 500px;
+  }
+  .part1 img {
+    width: 200px;
+  }
+  #build2 {
+    margin-left: 220px;
+  }
+  .part2 {
+    width: 300px;
+  }
+  .name {
+    font-size: 44px;
+  }
+  .registr img {
+    width: 549px;
+  }
+  .block5 {
+    height: 500px;
+  }
+  .tasks img {
+    width: 68px;
+    height: 164px;
+  }
+  .tasks p {
+    font-size: 17px;
+  }
+  input {
+    height: 36px;
+  }
+  textarea {
+    height: 100px;
+  }
+  .middlepart {
+    width: 455px;
+  }
+  .contacts {
+    width: 300px;
+  }
+  .contact_part1 {
+    width: 250px;
+  }
+  #logo {
+    width: 100px;
+    height: 54px;
+  }
+}
+@media (max-width: 1150px) {
+  .menu {
+    width: 476px;
+  }
+  .block4 {
+    height: 865px;
+  }
+  .img_project {
+    height: 700px;
+  }
+}
+@media (max-width: 1050px) {
+  .registr img {
+    width: 449px;
+  }
+  textarea {
+    height: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .header-value {
+    padding: 30px 100px;
+  }
+  .menu {
+    width: 426px;
+  }
+  .build img {
+    width: 430px;
+  }
+  .left_side {
+    width: 150px;
+    height: 242px;
+    margin-top: 180px;
+  }
+  .project_home {
+    font-size: 28px;
+  }
+  .arrow {
+    padding: 5px 0;
+  }
+  .arrows button {
+    width: 33px;
+    height: 33px;
+  }
+  .block2 {
+    width: 500px;
+    height: 785px;
+    flex-direction: column;
+  }
+  .part2 {
+    width: 400px;
+    height: 355px;
+  }
+  .block3 {
+    height: 450px;
+  }
+  .tasks {
+    height: 350px;
+    flex-direction: column;
+  }
+  .tasks p {
+    font-size: 14px;
+  }
+  .block4 {
+    height: 1400px;
+  }
+  .img_project {
+    height: 1200px;
+  }
+  .footer_value {
+    padding: 58px 50px;
+  }
+  .middlepart {
+    width: 330px;
+  }
+  .contacts {
+    width: 200px;
+  }
+  .contact_part1 {
+    width: 200px;
+  }
+  .contact_part2 {
+    width: 140px;
+  }
+  .contact_part3 {
+    width: 120px;
+  }
+  .contacts p {
+    font-size: 12px;
+  }
+  .registr img {
+    display: none;
+  }
+  .block5 {
+    height: 550px;
+  }
+  .form {
+    height: 320px;
+  }
+  input {
+    width: 350px;
+  }
+  textarea {
+    width: 350px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */
