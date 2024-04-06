@@ -622,13 +622,14 @@ button:hover {
     height: 550px;
   }
   .form {
+    width: 90%;
     height: 320px;
   }
   input {
-    width: 350px;
+    width: 100%;
   }
   textarea {
-    width: 350px;
+    width: 100%;
     height: 100px;
   }
 }
@@ -802,12 +803,102 @@ button:hover {
     height: 500px;
     flex-direction: column;
   }
+  .link {
+    margin-top: -150px;
+    margin-left: 55px;
+  }
+  .link h1 {
+    font-size: 36px;
+  }
 }
 @media (max-width: 550px) {
+  .build .button_arrow {
+    width: 180px;
+    padding: 20px 30px;
+    margin-left: 0;
+    margin-top: -67px;
+  }
   #img1 {
     width: 350px;
   }
   #img2 {
     width: 350px;
+  }
+  #img4 {
+    width: 350px;
+  }
+  .link {
+    margin-top: -120px;
+    margin-left: 35px;
+  }
+  .link h1 {
+    font-size: 30px;
+  }
+  .menu {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 550px) {
+  .build img {
+    width: 320px;
+  }
+  .menu {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .block3 {
+    height: 650px;
+  }
+  .block4 {
+    height: 200px;
+  }
+  .img_project {
+    align-items: center;
+  }
+  .tasks p {
+    font-size: 10px;
+  }
+  .tasks {
+    height: 550px;
+  }
+  #img1 {
+    width: 320px;
+  }
+  #img2 {
+    width: 320px;
+  }
+  #img4 {
+    width: 320px;
+  }
+  #img5 {
+    width: 320px;
+  }
+  .link {
+    margin-top: -120px;
+    margin-left: 25px;
+  }
+  .link h1 {
+    font-size: 25px;
+  }
+  .confidentiol {
+    width: 200px;
+    font-size: 11px;
+  }
+  .middlepart {
+    width: 290px;
+    flex-direction: column;
+    height: 320px;
+  }
+  .information {
+    height: 150px;
+  }
+  .contacts {
+    height: 150px;
+  }
+  .footer_value {
+    padding: 28px 20px;
+  }
+  .img_project {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
