@@ -376,6 +376,15 @@ footer{
     width:145px;
      height: 94px;
 }
+button:hover{
+    background-color: crimson;
+}
+.block4 button:hover{
+    background-color: crimson;
+}
+.block5 button:hover{
+    background-color: crimson;
+}
 @media (max-width: 1350px) {
 #img1{
     width: 500px;
@@ -579,4 +588,191 @@ textarea{
         width: 350px;
         height: 100px;
     }
+}
+@media (max-width: 786px) {
+    .header-value{
+        padding: 30px 20px;
+    }
+    .block1{
+        padding: 0 20px;
+    }
+    .block2{
+        padding: 0 20px;
+    }
+    .block3{
+        padding: 0 20px;
+    }
+    .block4{
+        padding: 0 20px;
+    }
+    .block5{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 620px){
+    .home::before,
+.home::after {
+    display: none;
+}
+    .head-burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+      }
+      .head-burger span{
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+      }
+      .head-burger::before,
+      .head-burger::after{
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        z-index: 5;
+      }
+      .head-burger::before{
+        top: 0;
+      }
+      .head-burger::after{
+        bottom: 0;
+      }
+      .head-burger.active::before{
+        transform: rotate(45deg);
+        top:9px;
+      }
+      .head-burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+      }
+      .head-burger.active span{
+        transform: scale(0);
+      }
+      .menu{
+        position: absolute;
+        top: -150%;
+        left: 0;
+        width: 70%;
+        height: 20%;
+        background-color: gray;
+        color: #FFFFFF;
+        padding: 20px 10px 20px 10px;
+        z-index: 2;
+        transition: all 0.3s ease 0s;
+        align-self: center;
+        margin-left: 150px;
+      }
+      .menu.active{
+        top:0;
+      }
+      .header-value{
+       
+        margin:0;
+        
+        z-index: 50;
+      }
+      ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      ul li{
+        margin: 0px 0px 10px 10px;
+      }
+      .block1{
+        flex-direction: column;
+        align-items: center;
+      }
+      .left_side{
+        width: 240px;
+        margin-top: 20px;
+        align-items: center;
+      }
+      .project_home{
+        font-size: 44px;
+        text-align: center;
+      }
+      
+      
+      .build .button_arrow{
+        margin-top: -87px;
+        margin-left: 75px;
+      }
+      .block2{
+        width: 80%;
+        height: 1000px;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+      }
+      .part1{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+      .part1 #build1{
+        position: static;
+        margin: 0;
+      }
+      .part1 #build2{
+        position: static;
+        margin: 0;
+      }
+      .part1 #build3{
+        position: static;
+        margin: 0;
+      }
+      .part2{
+        width: 100%;
+      }
+      .block3{
+        margin-top: 40px;
+        height: 550px;
+      }
+      .block4{
+        margin-top: 40px;
+        
+      }
+      .block5{
+        margin-top: 40px;
+        
+      }
+
+      .tasks{
+        height: 450px;
+      }
+      .tasks p{
+        font-size: 12px;
+      }
+      .tasks img{
+        width: 58px;
+        height: 100px;
+      }
+      .task1{
+        width: 70%;
+      }
+      .task2{
+        width: 80%;
+      }
+      .footer_value{
+        height: 500px;
+        flex-direction: column;
+      }
+      
+}
+@media (max-width: 550px){
+    #img1{
+        width: 350px;
+      }
+      #img2{
+        width: 350px;
+      }
 }
